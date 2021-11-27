@@ -9,15 +9,15 @@ const Carosel = () => {
                 <img
                 style={{objectFit:'cover'}}
                 className="d-block w-100 h-100"
-                src="https://media.istockphoto.com/photos/blood-donation-concept-picture-id1220217893?k=20&m=1220217893&s=170667a&w=0&h=SZzZO-WcAyyLFH22u1pgLXIHgOdjBt5sfmAiIaoUnGA="
+                src="https://i.ibb.co/25NkwDs/399895-Mother-s-Day-tears-banner.jpg"
                 alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item style={{height:'60vh'}}>
                 <img
-                style={{objectFit:'cover'}}
+                // style={{objectFit:'cover'}}
                 className="d-block w-100 h-100"
-                src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2017/06/logo1-1497357087.jpg"
+                src="http://www.brilliantread.com/wp-content/uploads/2017/07/blood-donation-quotes.jpeg"
                 alt="Second slide"
                 />
             </Carousel.Item>

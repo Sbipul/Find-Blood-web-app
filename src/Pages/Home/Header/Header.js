@@ -6,7 +6,7 @@ import { FaFacebook,FaPhoneAlt,FaWhatsapp } from "react-icons/fa";
 const Header = () => {
     return (
         <div>
-            <div className="bg-danger py-2 text-light">
+            <div className="darK py-2 text-light">
                 <Container>
                     <div className="d-flex justify-content-between">
                         <div>
@@ -33,7 +33,7 @@ const Header = () => {
                 <Nav.Link as={HashLink} className="fs-5 text-light border-end" to="/home#home">হোম</Nav.Link>
                 <Nav.Link as={HashLink} className="fs-5 text-light border-end" to="/all">সকল সদস্য</Nav.Link>
                 <Nav.Link as={HashLink} className="fs-5 text-light border-end" to="/about">বিস্তারিত</Nav.Link>
-                <Nav.Link as={HashLink} className="fs-5 text-light" to="/about">কার্যক্রম</Nav.Link>
+                <Nav.Link as={HashLink} className="fs-5 text-light" to="/admin">এডমিন</Nav.Link>
                 </Nav>
                 <Form className="d-flex">
                 </Form>

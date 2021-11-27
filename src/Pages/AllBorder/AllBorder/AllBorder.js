@@ -45,11 +45,13 @@ const AllBorder = () => {
             </div>
             <Container className="py-5">
                 <h2 className="text-center py-3 my-3 text-light bg-success">Total found - {allBorder.length}</h2>
-                <Row xs={1} md={3} lg={4} className="g-4">
+                {
+                    allBorder ? <Row xs={1} md={3} lg={4} className="g-4">
                     {
                         allBorder.map(b => <Border key={b.id} border={b}></Border>)
                     }
-                </Row>
+                </Row> : <h1>Loading...</h1>
+                }
             </Container>
         </div>
     );

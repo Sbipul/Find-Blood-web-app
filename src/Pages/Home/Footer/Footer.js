@@ -18,32 +18,34 @@ const Footer = () => {
                     </div>
                     <div className="col-12 col-md-3">
                         <div>
-                            <h5 className="bg-warning p-2">প্রয়োজনীয় তথ্য সমূহ</h5>
-                            <Link className="text-decoration-none text-light"><p>সিনিয়র বর্ডার</p></Link>
-                            <Link className="text-decoration-none text-light"><p>মেসের পরিবেশ</p></Link>
-                            <Link className="text-decoration-none text-light"><p>আভ্যন্তরীণ নিয়মনীতি</p></Link>
-                            <Link className="text-decoration-none text-light"><p>সুযোগ সুবিধাসমূহ</p></Link>
+                            <h5 className="text-warning p-2">প্রয়োজনীয় লিঙ্ক সমূহ</h5>
+                            {/* <Link className="text-decoration-none text-light"><p>সিনিয়র বর্ডার</p></Link> */}
+                            <Link to="/all" className="text-decoration-none text-light"><p>রক্ত খুজুন (রক্ত গ্রুপ দিয়ে)</p></Link>
+                            <Link to="/all" className="text-decoration-none text-light"><p>রক্ত খুজুন (নাম দিয়ে)</p></Link>
+                            <Link to="/admin" className="text-decoration-none text-light"><p>নতুন সদস্য যুক্ত করুন</p></Link>
+                            {/* <Link className="text-decoration-none text-light"><p>আভ্যন্তরীণ নিয়মনীতি</p></Link>
+                            <Link className="text-decoration-none text-light"><p>সুযোগ সুবিধাসমূহ</p></Link> */}
                         </div>
                     </div>
                     <div className="col-12 col-md-3">
                         <div>
-                            <h5 className="bg-warning p-2">দায়িত্ব সমূহ ও আভ্যন্তরীণ তথ্য</h5>
-                            <Link className="text-decoration-none text-light"><p>বাজার লিস্ট</p></Link>
-                            <Link className="text-decoration-none text-light"><p>গতমাসের মিলের হিসাব</p></Link>
-                            <Link className="text-decoration-none text-light"><p>উন্নয়ন বিলের হিসাব</p></Link>
-                            <Link className="text-decoration-none text-light"><p>চালের হিসাব</p></Link>
+                            <h5 className="text-warning p-2">নেভিগেশিন</h5>
+                            <Link to="/" className="text-decoration-none text-light"><p>হোম</p></Link>
+                            <Link to="/about" className="text-decoration-none text-light"><p>বিস্তারিত</p></Link>
+                            <Link to="/admin" className="text-decoration-none text-light"><p>এডমিন</p></Link>
+                            <Link to="/all" className="text-decoration-none text-light"><p>সকল সদস্য</p></Link>
                         </div>
                     </div>
                     <div className="col-12 col-md-3">
                         <div>
-                            <h5 className="bg-warning p-2">ছোট গ্যালারী</h5>
+                            <h5 className="text-warning p-2">ছোট গ্যালারী</h5>
                             <div className="gallery">
-                                <img className="w-100" src="https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/178895727_1410284335992227_4871337539630206727_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=tATLgnOmOc4AX9kUB19&_nc_ht=scontent.fdac7-1.fna&oh=c88af7951c82afeb940fee084fb3e608&oe=618C5B8Bhttps://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/178895727_1410284335992227_4871337539630206727_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=tATLgnOmOc4AX9kUB19&_nc_ht=scontent.fdac7-1.fna&oh=c88af7951c82afeb940fee084fb3e608&oe=618C5B8B" alt="" />
-                                <img className="w-100" src="https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/181135220_168471561849998_6771920702238392001_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=rbLUGJ3s10gAX9j1yCu&_nc_ht=scontent.fdac7-1.fna&oh=c03b7f2ad7cb26a204334157983accc2&oe=618E45D5" alt="" />
-                                <img className="w-100" src="https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/54236843_2271188033198660_5264968763400257536_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=174925&_nc_ohc=lN_JC-6sT3MAX8SBgw1&tn=HxA1pJSM8Bsh9WjD&_nc_ht=scontent.fdac7-1.fna&oh=91563ee8699e6fbf05afabf56c3023fb&oe=618E3ACC" alt="" />
-                                <img className="w-100" src="https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/147234689_2817035911895823_4823661144095639848_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=cnjeSuBJsjUAX87mcms&_nc_ht=scontent.fdac7-1.fna&oh=b65b25cb1f2ed2329d5e3e520e9671d3&oe=618D42BD" alt="" />
-                                <img className="w-100" src="https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/240850785_975115599714035_3515936888195942460_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=QRv9nSPKZpYAX8qCkxq&_nc_ht=scontent.fdac7-1.fna&oh=8537044915600818d236bec44f1e9183&oe=618E9090" alt="" />
-                                <img className="w-100" src="https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/65960449_150478002740929_8386491341332283392_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=qeofcLYum2QAX-hR-hr&_nc_ht=scontent.fdac7-1.fna&oh=e1057a7471c049af0dd5bb8232e96187&oe=618E566F" alt="" />
+                                <img className="w-100" src="https://i.ibb.co/16vDQbx/manosda.jpg" alt="" />
+                                <img className="w-100" src="https://i.ibb.co/28n8kMH/181135220-168471561849998-6771920702238392001-n.jpg" alt="" />
+                                <img className="w-100" src="https://i.ibb.co/1TKKT73/alokda.jpg" alt="" />
+                                <img className="w-100" src="https://i.ibb.co/r06c02h/bo.jpg" alt="" />
+                                <img className="w-100" src="https://i.ibb.co/QY4NyJ7/204328692-111516761183399-3103209040270101684-n.jpg" alt="" />
+                                <img className="w-100" src="https://i.ibb.co/5jv4mc2/257233194-3007865882789535-1282226972124646804-n.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -51,7 +53,7 @@ const Footer = () => {
                 
             </Container>
             </div>
-            <div className="py-3 bg-danger">
+            <div className="py-3 darK">
                     <p className="text-center text-light p-0 m-0">All rights reserved by bipul chandro Roy</p>
             </div>
         </div>

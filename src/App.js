@@ -1,6 +1,7 @@
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import './App.css';
 import About from './Pages/AboutUs/About';
+import Admin from './Pages/Admin/Admin';
 import AllBorder from './Pages/AllBorder/AllBorder/AllBorder';
 import Details from './Pages/Details/Details';
 import Footer from './Pages/Home/Footer/Footer';
@@ -28,6 +29,10 @@ function App() {
 
           <Route exact path="/all">
             <AllBorder/>
+          </Route>
+
+          <Route exact path="/admin">
+            <Admin/>
           </Route>
 
           <Route path="/all/:id">
